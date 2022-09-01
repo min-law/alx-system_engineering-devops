@@ -13,3 +13,7 @@ The file olleh will be in the working directory
 directory
  directory permission
  change group
+ change owner
+ The file _hello is a symbolic link
+ The file hello will be in the working directory
+star wars
