@@ -1,4 +1,4 @@
-# Executes a command
-exec { 'pkill killmenow':
-  path => '/usr/bin:/usr/sbin:/bin'
+#  kills a process named killmenow
+exec { 'kill killmenow':
+  command => '/usr/bin/pkill -f killmenow'
 }
