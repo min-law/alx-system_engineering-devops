@@ -1,1 +1,1 @@
-my first readme
+This directory contents examples about config ssh
