@@ -1,5 +1,4 @@
-Host holb_server
-    HostName 34.73.23.33
-    User Daniel
-    IdentityFile ~/.ssh/holberton
-    PasswordAuthentication no
+# ssh config file
+Host *
+      PasswordAuthentication no
+      IdentifyFile ~/.ssh/school
